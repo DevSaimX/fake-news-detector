@@ -10,11 +10,11 @@ from streamlit_echarts import st_echarts  # ✅ NEW
 # 🔧 Load model and tokenizer
 # -------------------------------
 
-model = load_model('model/fake_news_lstm_model.h5')
+model = load_model('model/fake_news_lstm_model.keras')
 
 with open('model/tokenizer.pkl', 'rb') as f:
     tokenizer = pickle.load(f)
-model = load_model('model/fake_news_lstm_model.h5')
+model = load_model('model/fake_news_lstm_model.keras')
 
 with open('model/tokenizer.pkl', 'rb') as f:
     tokenizer = pickle.load(f)
